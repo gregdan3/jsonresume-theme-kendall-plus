@@ -222,6 +222,11 @@ function render(resumeObject) {
             });
         }
     }
+    if (resumeObject.certificates && resumeObject.certificates.length) {
+        if (resumeObject.certificates[0].title) {
+            resumeObject.certsBool = true;
+        }
+    }
 
     if (resumeObject.skills && resumeObject.skills.length) {
         if (resumeObject.skills[0].name) {
