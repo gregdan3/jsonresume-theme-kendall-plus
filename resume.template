@@ -360,6 +360,9 @@
               <footer>
                 <a href="{{url}}" target= "_blank">{{name}}</a>
               </footer>
+              <div>
+                {{email}}
+              </div>
             </blockquote><br>
             {{/references}}
           </div>
